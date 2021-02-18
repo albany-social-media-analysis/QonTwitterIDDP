@@ -8,6 +8,8 @@ In compliance with Twitter's "Content redistribution" guidelines in the [Develop
 ### Code
 We provide a number of Python files that contain the code we used to extract data from our database, then process, analyze, and visualize that data.  
 
+To ensure that these Python files contain functional code, we also provide QonTwitter.yml, which contains information about the Python environment we used (via [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)) to execute this code. Researchers looking to replicate this analysis can ensure that the code is functional by creating a virtual environment using this yml file.
+
 To ensure compliance with Twitter's guidelines, we cannot provide intermediate datafiles that we created as part of our extract-process-analyze-visualize pipeline. However, researchers can use the code in these files to replicate our analyses using any dataset of hydrated tweets.  
 1) language_breakdown_check.py: creates the chart showing the relative proportion of different languages.
 2) daily_count.py: generates  descriptive statistics and visualizations about the number of tweets per day.
