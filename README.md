@@ -3,7 +3,7 @@
 This repo contains replication files for IDDP's report about QAnon on Twitter.
 
 ### Data
-In compliance with Twitter's "Content redistribution" guidelines in the [Developer Policy](https://developer.twitter.com/en/developer-terms/policy), we provide a list of the ID of each tweet in our dataset ([link to file](https://osf.io/jxbgm/)). Researchers should be able to use this information to rehydrate tweets.
+In compliance with Twitter's "Content redistribution" guidelines in the [Developer Policy](https://developer.twitter.com/en/developer-terms/policy), we provide a list of the ID of each tweet in our dataset ([link to file](https://osf.io/jxbgm/)). Researchers should be able to use this information to rehydrate tweets (i.e., go from a list of tweet IDs to a list of full tweet objects). There are open-source tools that can be used to rehydrate tweets (for example, [Hydrator](https://github.com/DocNow/hydrator)) if researchers prefer not to write their own script to do this.
 
 ### Code
 We provide a number of Python files that contain the code we used to extract data from our database, then process, analyze, and visualize that data.  
